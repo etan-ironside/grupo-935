@@ -1,0 +1,96 @@
+#titulo {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(87, 87, 187);
+}
+#registro{
+    display: none;
+}
+#bienvenida{
+    width: 100%;
+    color: green;
+    font-size: 16px;
+}
+#menu{
+    width: 100%;
+}
+.titulo{
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    width: 100%;
+}
+.botoncerrar{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: rgb(173, 173, 255);
+    text-decoration: none;
+  }
+  .menu {
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    z-index: 1;
+}
+  #registro,
+  #principal,
+  #camara{
+      display: none;
+  }
+.btn {
+    background: #618ba7;
+    background-image: -webkit-linear-gradient(top, #618ba7, #6594b4);
+    background-image: -moz-linear-gradient(top, #618ba7, #6594b4);
+    background-image: -ms-linear-gradient(top, #618ba7, #6594b4);
+    background-image: -o-linear-gradient(top, #618ba7, #6594b4);
+    background-image: linear-gradient(to bottom, #618ba7, #6594b4);
+    -webkit-border-radius: 25;
+    -moz-border-radius: 285px;
+    border-radius: 25px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .errorCampo {
+      border-color: royalblue;
+      border-width: 2px;
+  }
+
+  .opciones{
+      text-decoration: none;
+      color: chocolate;
+      padding-left: 20px;
+  }
+
+  .opciones:visited{
+      color: chocolate;
+  }
+
+  .inputget{
+    visibility: hidden;
+}
+  
+  .container-photo{
+      width: 100%;
+      height: auto;
+      background-color: black;
+      margin-bottom: 3px;
+  }
+
+  .photo{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
